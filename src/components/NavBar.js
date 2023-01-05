@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavBar , Container } from"react-boostrap";
+import logo from '';
+
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState['home'];
     const [scrolled, seScrolled] = useState[false];
