@@ -50,9 +50,9 @@ export const NavBar = () => {
 
         <spam className="navbar-text">
             <div className="social_icon">
-                <B href="#"><img src={''} alt=""/> </B>
-                <B href="#"><img src={''} alt=""/> </B>
-                <B href="#"><img src={''} alt=""/> </B>
+                <B href="#"><img src={navIcon1} alt=""/> </B>
+                <B href="#"><img src={navIcon2} alt=""/> </B>
+                <B href="#"><img src={navIcon3} alt=""/> </B>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>let's connect </span></button>
         </spam>
