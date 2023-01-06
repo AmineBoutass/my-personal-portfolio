@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { NavBar , Container } from"react-boostrap";
 import logo from '../assets/img/logo.svg';
+import navIcon1 from '../assets/img/nav-navIcon1.svg';
+import navIcon2 from '../assets/img/nav-navIcon2.svg';
+import navIcon3 from '../assets/img/nav-navIcon3.svg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState['home'];
