@@ -1,25 +1,25 @@
 import { useEffect, useState } from "react";
-import { NavBar , Container } from"react-boostrap";
+import { Navbar ,Container, Nav } from"react-boostrap";
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-navIcon1.svg';
 import navIcon2 from '../assets/img/nav-navIcon2.svg';
 import navIcon3 from '../assets/img/nav-navIcon3.svg';
 
 export const NavBar = () => {
-    const [activeLink, setActiveLink] = useState['home'];
-    const [scrolled, seScrolled] = useState[false];
+    const [activeLink, setActiveLink] = useState('home');
+    const [scrolled, seScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
             if (window.scrollY > 50) {
-                seScrolled[true];
+                seScrolled(true);
             }else {
-                seScrolled[false];
+                seScrolled(false);
             }
         };
-        window.addEventListener["scroll", onscroll];
+        window.addEventListener("scroll", onscroll);
 
-        return () => window.removeEventListener["scroll", onscroll];
+        return () => window.removeEventListener("scroll", onscroll);
     },[])
 
     const onUpdateActiveLink = (value) => {
@@ -27,18 +27,18 @@ export const NavBar = () => {
     }
 
     return(
-    <NavBar  expand ="lg" className={scrolled ? "scrolled": ""}>
+    <Navbar  expand ="lg" className={scrolled ? "scrolled": ""}>
      <Container>
 
-      <NavBar.Brand href="#home">
-        <img src={''} alt="logo"/>
-      </NavBar.Brand>
+      <Navbar.Brand href="#home">
+        <img src={logo} alt="logo"/>
+      </Navbar.Brand>
 
-      <NavBar.Toggle aria-controls="basic-navbar-nav">
+      <Navbar.Toggle aria-controls="basic-navbar-nav">
       <span className="navbae-toggler-icon"></span>
-      </NavBar.Toggle>
+      </Navbar.Toggle>
 
-      <NavBar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav">
 
 
         <Nav className="me-auto">
@@ -59,9 +59,9 @@ export const NavBar = () => {
 
 
         
-      </NavBar.Collapse>
+      </Navbar.Collapse>
      </Container>
-    </NavBar>
+    </Navbar>
 
     )
 }
