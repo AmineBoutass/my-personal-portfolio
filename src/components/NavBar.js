@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { Navbar ,Container, Nav } from"react-boostrap";
+import { Navbar ,Container, Nav } from"react-bootstrap";
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-navIcon1.svg';
-import navIcon2 from '../assets/img/nav-navIcon2.svg';
-import navIcon3 from '../assets/img/nav-navIcon3.svg';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
 export const NavBar = () => {
@@ -51,9 +51,9 @@ export const NavBar = () => {
 
         <spam className="navbar-text">
         <div className="social_icon">
-                <B href="#"><img src={navIcon1} alt=""/> </B>
-                <B href="#"><img src={navIcon2} alt=""/> </B>
-                <B href="#"><img src={navIcon3} alt=""/> </B>*
+                <a href="#"><img src={navIcon1} alt=""/> </a>
+                <a href="#"><img src={navIcon2} alt=""/> </a>
+                <a href="#"><img src={navIcon3} alt=""/> </a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>let's connect </span></button>
         </spam>
