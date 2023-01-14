@@ -1,4 +1,4 @@
-import { Container, col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
@@ -30,7 +30,7 @@ export const Skills = () => {
     <section className="skill" id="skills">
       <Container>
         <Row>
-          <col>
+          <Col>
             <div className="skill-bx">
               <h2>skills</h2>
               <p> paragraghe.</p>
@@ -56,7 +56,7 @@ export const Skills = () => {
                 <h5>web devlopement</h5>
               </div>
             </div>
-          </col>
+          </Col>
         </Row>
       </Container>
       <img className="background-image-left" src={colorSharp} />
