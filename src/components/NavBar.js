@@ -2,10 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import navIcon4 from "../assets/img/email.svg";
-
+import navIcon5 from "../assets/img/nav-icon5.svg";
 
 
 export const NavBar = () => {
@@ -49,10 +47,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/mohammed-amine-boutass-b628901b9/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="" /></a>
                 {/*<a href="#"><img src={navIcon2} alt="" /></a>*/}
-                <a href="https://www.instagram.com/"  target="_blank" rel="noreferrer"><img src={navIcon3} alt="" /></a>
-                <a href="https://mail.google.com/mail/u/0/#inbox"  target="_blank" rel="noreferrer"><img src={navIcon4} alt="" /></a>
+                <a href="https://www.instagram.com/amimeboutass/"  target="_blank" rel="noreferrer"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/AmineBoutass"  target="_blank" rel="noreferrer"><img src={navIcon5} alt="" /></a>
               </div>
               
             </span>

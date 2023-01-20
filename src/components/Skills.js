@@ -33,23 +33,19 @@ export const Skills = () => {
           <Col>
             <div className="skill-bx">
               <h2>skills</h2>
-              <p> ana mkawad o lidwa yakol dwa.</p>
+              <p> my project.</p>
               <Carousel responsive = {responsive} infinite={true} className="skill-slider">
               <div className="item">
-                <img src={meter1} alt="" />
+                <img src={meter1}  />
                 <h5>web devlopement</h5>
               </div>
               <div className="item">
-                <img src={meter2} alt="Image" />
+                <img src={meter2}/>
                 <h5>Brand identity</h5>
               </div>
               <div className="item">
-                <img src={meter3} alt="Image" />
+                <img src={meter3}  />
                 <h5>Logo Design</h5>
-              </div>
-              <div className="item">
-                <img src={meter3} alt="Image" />
-                <h5>web devlopement</h5>
               </div>
               </Carousel>
             </div>
