@@ -72,28 +72,28 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Hello, my name is Boutass Mohammed Amine, and I am a web
-                    developer. I specialize in building and maintaining websites
-                    using various programming languages and tools. I have
-                    experience in the industry and have developed a diverse
-                    skillset in front-end and back-end development. Some of my
-                    key skills include proficiency in HTML, CSS, JavaScript, and
-                    various content management systems (CMS) such as WordPress,
-                    Drupal, and Joomla. I also have experience with server-side
-                    programming languages such as PHP and Python, as well as
-                    frameworks such as Laravel and Django. I am familiar with
-                    databases such as MySQL and MongoDB and have experience
-                    working with APIs. I am passionate about creating websites
-                    that are visually appealing, user-friendly, and optimized
-                    for performance. I am always eager to learn new technologies
-                    and techniques to stay up-to-date with the latest trends in
-                    the industry. In addition to my technical skills, I am a
-                    strong communicator and work well in a team environment. I
-                    am always open to feedback and enjoy collaborating with
-                    designers, project managers, and other developers to bring
-                    projects to life. If you have any questions or would like to
-                    discuss a potential project, please feel free to contact me.
-                    Thank you for considering me as your web developer.
+                    and I am a web developer. I specialize in building and
+                    maintaining websites using various programming languages and
+                    tools. I have experience in the industry and have developed
+                    a diverse skillset in front-end and back-end development.
+                    Some of my key skills include proficiency in HTML, CSS,
+                    JavaScript, and various content management systems (CMS)
+                    such as WordPress, Drupal, and Joomla. I also have
+                    experience with server-side programming languages such as
+                    PHP and Python, as well as frameworks such as Laravel and
+                    Django. I am familiar with databases such as MySQL and
+                    MongoDB and have experience working with APIs. I am
+                    passionate about creating websites that are visually
+                    appealing, user-friendly, and optimized for performance. I
+                    am always eager to learn new technologies and techniques to
+                    stay up-to-date with the latest trends in the industry. In
+                    addition to my technical skills, I am a strong communicator
+                    and work well in a team environment. Iam always open to
+                    feedback and enjoy collaborating with designers, project
+                    managers, and other developers to bring projects to life. If
+                    you have any questions or would like to discuss a potential
+                    project, please feel free to contact me. Thank you for
+                    considering me as your web developer.
                   </p>
                   {/*<button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>*/}
                 </div>
